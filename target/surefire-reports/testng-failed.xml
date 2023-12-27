@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="Test_script.RegisterTest">
+        <methods>
+          <include name="afterclass"/>
+          <include name="beforesuite"/>
+          <include name="aftertest"/>
+          <include name="beforeclass"/>
+          <include name="testcase" invocation-numbers="0"/>
+          <include name="aftersuite"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- Test_script.RegisterTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
